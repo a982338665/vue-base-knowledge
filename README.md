@@ -1,6 +1,6 @@
 # vue-base-knowledge
 
-##课程基于vue2.1.8
+##课程基于vue2.1.8 Vue.js 不支持 IE8 及其以下 IE 版本
 ##内容来源：菜鸟教程 https://www.runoob.com/vue2/vue-tutorial.html
 ##其他资料：
     
@@ -53,3 +53,28 @@
     index.html	首页入口文件，你可以添加一些 meta 信息或统计代码啥的。
     package.json	项目配置文件。
     README.md	项目的说明文档，markdown 格式
+
+**3.目标：**
+    
+    1.使用vue.js完整开发移动端app
+    2.学会组件化，模块化的开发方式
+
+**4.内容：**   
+    
+    1.vue.js框架介绍
+    2.vue-cli脚手架，搭建基本代码框架
+    3.vue-router 官方插件管理路由
+    4.vue-resource Ajax通信
+    5.webpack   构建工具
+    6.es6+eslint    eslint：es6的代码风格检查工具
+    7.工程化-组件化-模块化
+    8.移动端常用开发技巧：
+        flex弹性布局
+        css stickyfooter
+        酷炫的交互设计
+        
+**5.vue的MVVM框架：**
+
+**6.webpack打包：**
+    
+    
