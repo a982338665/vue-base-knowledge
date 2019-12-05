@@ -75,6 +75,53 @@
         
 **5.vue的MVVM框架：**
 
+    1.前端开发趋势：
+        ·旧浏览器淘汰，移动端需求增加
+        ·前端交互越来越多，功能越来越复杂
+        ·架构从传统后台mvc 向restful api + 前端mv*（前后端分离）迁移
+            MV*：框架分类
+                1.MVC
+                2.MVP
+                3.MVVM ：vue.js属于mvvm框架
+    2.MVVM框架：
+        1.View --> 视图 DOM
+        2.ViewModel --> 通讯 观察者（通常实现了Observe监听数据变化，实现了数据的双向绑定）
+        3.Model --> 数据 javascript对象
+        4.介绍：
+            ·针对具有复杂交互逻辑的前端应用
+            ·提供基础的架构抽象
+            ·通过Ajax数据持久化，保证前端用户体验，不会每次都对前段页面进行刷新，只拿数据渲染
+        5.常见的mvvm框架：
+            ·angular
+            ·react
+            ·vue
+    3.vue介绍：
+        ·他是一个轻量级MVVM框架
+        ·数据驱动+组件化的前端开发
+        ·github的star数很高，社区完善：去官网可以看到论坛，聊天室等
+    4.对比Angular，react，vue：
+        ·vue更轻量，gzip大小20k，angular大小56k，react大小40k，所以针对移动端vue更加适合
+        ·vue更易上手，学习曲线平稳
+        ·借鉴了angualr指令和react的组件化
+    5.vue的核心思想：
+        1.数据驱动：数据的双向绑定
+        2.组件化：拓展html元素，封装可重用代码
+      
+**6.vue-cli脚手架：**
+    
+    1. vue-cli是vue的脚手架工具，会帮我们写好vue基础代码的工具
+    2.可以帮我们生成：目录结构，本地调试，代码部署，热加载，单元测试等
+    3.vue-cli安装：
+        node -v
+        npm install -g vue-cli
+        vue list
+        vue init webpack sell-name
+        生成脚手架成功
+        cd sell-name
+        npm install
+        npm run dev
+    4.
+    
 **6.webpack打包：**
     
     
