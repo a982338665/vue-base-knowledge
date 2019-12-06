@@ -2,6 +2,7 @@
   <div id="app">
     <img src="./assets/logo.png">
     <router-view/>
+    <Hello></Hello>
   </div>
 </template>
 
@@ -9,6 +10,7 @@
 
     //导入组件
     import Hello from './components/HelloWorld'
+
     export default {
         name: 'app',
         components: {
