@@ -2,7 +2,8 @@
   <div id="app">
     <img src="./assets/logo.png">
     <router-view/>
-    <Hello></Hello>
+    <test></test>
+
   </div>
 </template>
 
@@ -10,11 +11,13 @@
 
     //导入组件
     import Hello from './components/HelloWorld'
+    import Test from './components/test'
 
     export default {
         name: 'app',
         components: {
-            Hello
+            Hello,
+            Test
         }
     }
 </script>
