@@ -2,24 +2,27 @@
   <div id="app">
     <img src="./assets/logo.png">
     <router-view/>
-    <test></test>
-
+<!--    <test></test>-->
+    <MinioTest></MinioTest>
   </div>
 </template>
 
 <script>
 
-    //导入组件
-    import Hello from './components/HelloWorld'
-    import Test from './components/test'
+  //导入组件
+  import Hello from './components/HelloWorld'
+  import Test from './components/Test'
+  import MinioTest from './components/MinioTest'
 
-    export default {
-        name: 'app',
-        components: {
-            Hello,
-            Test
-        }
+  export default {
+    name: 'app',
+    components: {
+      Hello,
+      Test,
+      MinioTest
+
     }
+  }
 </script>
 
 <style>

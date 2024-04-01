@@ -8,7 +8,7 @@
 
 <script>
     //导入组件
-    import test from './test'
+    import test from './Test'
 
     export default {
         name: 'hello',
